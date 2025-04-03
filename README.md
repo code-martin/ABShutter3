@@ -38,12 +38,12 @@ Cheap Bluetooth camera shutter remotes like the "AB Shutter 3" are widely availa
 Before you can use the remapper, you need to tell it which remote button should trigger which keyboard key. You do this using the **Training Mode**.
 
 1.  **Find Device Name:** Go to Windows Settings -> Bluetooth & devices -> Devices. Find your paired "AB Shutter 3" remote and note its **exact name** (e.g., "AB Shutter3", "Camera Remote", etc.). Case sensitivity might matter.
-2.  **Turn On Remote:** Make sure your AB Shutter 3 remote is turned on and connected (usually indicated by a blinking or solid LED stopping).
+2.  **Turn On Remote:** Make sure your remote button ("AB Shutter 3") is turned on and connected (usually indicated by a blinking or solid LED stopping).
 3.  **Run Training:**
     *   Open Command Prompt (`cmd`) or PowerShell **in the directory where you placed the executable**.
     *   Run the application with the device name as a command-line argument, enclosed in quotes if it contains spaces:
         ```bash
-        .\ABShutter3Remapper.exe "AB Shutter3"
+        .\ABShutter3.exe "AB Shutter3"
         ```
         (Replace `"AB Shutter3"` with the exact name you found in step 1).
 4.  **Follow Prompts:** The console will guide you:
