@@ -59,3 +59,7 @@ This process creates (or updates) a configuration file named `keymap.ini` locate
 ```ini
 [AB Shutter3]
 VolumeUp=Right  ; Maps the remote's usual 'Volume Up' button to Next Page (PowerPoint)
+
+## Notes
+
+This application was created via an iterative process of design, bug fixing, and tuning, assisted extensively by Google's Gemini 2.5 Pro.
