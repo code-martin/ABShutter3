@@ -2,6 +2,9 @@
 
 A lightweight Windows console application to remap the buttons of common "AB Shutter 3" Bluetooth remotes (and similar clones) to standard keyboard key presses.
 
+<img src="https://github.com/user-attachments/assets/f72a8332-f546-4f41-91da-3cdbc102f9ab" alt="AB Shutter 3" width="300">
+
+
 ## Problem Solved
 
 Cheap Bluetooth camera shutter remotes like the "AB Shutter 3" are widely available. However, on Windows, they typically only send basic commands like `Volume Up`, making them less useful as general-purpose input devices. This application allows you to intercept these inputs and translate them into *any* desired keyboard key press (e.g., Enter, Page Down, F5, letters, numbers, etc.), effectively turning the remote into a simple, customizable macro pad or presentation clicker.
